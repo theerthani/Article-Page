@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Article Page</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="keywords" content="article, pages, project">
+        <meta name="description" content="tech articles about my projects">
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <div id="header-wrapper">
+            <div id="header">  
+                <div id="logo-search">
+                    <img id="logo" src="favicon.ico">
+                    <input type="text" placeholder="Search...">
+                </div>         
+                <button onclick="handleCreatePost()">Create Post</button>
+            </div>
+        </div>
+
+        <div id="post-form-container">
+            <form>
+                <lable for="title"><b>Titl</b>e</lable>
+                <input name="title" type="text" placeholder="Enter title" required>
+                <lable><b>Description</b></lable>
+                <input type="text" placeholder="Enter Description">
+                <lable><b>Post</b></lable>
+                <textarea placeholder="Enter Post..." required></textarea>
+                <button id="hideButton" onclick="hidePostForm()">Hide form</button>
+                <button id="saveButton">save Form</button>
+            </form>
+
+        </div>
+
+        <div id="main-section-container">
+            <div id="article-section">
+                <img id="cover-image" src="download.jpeg"/>
+                <div>
+                    <h1>Article Title</h1>
+                    <h3>short info on article</h3>
+                    <p class="meta-data"><i>written by: Theerthani</i></p>
+                    <p class="meta-data"><i>date: 16th june 2023</i></p>
+                </div>
+        
+                <div>
+                    <p>paragraph 1</p>
+                    <p>paragraph 2</p>
+                
+        
+                    <h4>section header</h4>
+                    <p>paragraph 1</p>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>              
+        
+                </div>
+
+            </div>
+            
+            <div id="side-section">
+                <div>
+                    <h2>side section</h2> 
+                    <h3>another article</h3> 
+                    <h4>another article short info</h4>
+                    <a href="https://www.youtube.com/playlist?list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV">Click to open the link</a>
+                </div>
+        
+                <div>
+                    <h2>second side section</h2> 
+                    <h3>article title</h3> 
+                    <h4>short info</h4>
+                    <a href="https://www.youtube.com/playlist?list=PLwyXYwu8kL0wg9R_VMeXy0JiK5_c70IrV">Click to open the link</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <p>This is a footer</p>
+        </div>
+    
+    </body>   
+
+</html>

@@ -1,0 +1,127 @@
+        a {
+            color: blue;
+            font-size: 15px;
+        }
+
+        
+
+        #logo {
+            width: 50px;
+        }
+
+        #cover-image {
+            width: 100%;
+        }
+
+        .meta-data {
+            color: grey;
+        }
+
+        #main-section-container {
+            display: flex;
+            width: 80%;
+            margin: 15px auto;
+        } 
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            height: 50px;
+            width: 80%;
+            margin: auto;
+        }
+
+        #logo-search {
+            display: flex;
+        }
+
+        #header input {
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+            width: 300px;
+
+        }
+
+        #article-section {
+            width: 70%;
+            background-color: white;
+        }
+
+        #side-section {
+            width: 30%;
+            margin-left: 15px;
+        }
+
+        body {
+            background-color: #d8e1e9;
+            margin: 0;
+        }
+
+        #side-section div {
+            background-color: white;
+            padding: 5px 15px 20px 20px;
+            margin-bottom: 15px;
+        }
+
+        #footer {
+            background-color: white;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #article-section div {
+            padding: 15px;
+        }
+
+        #header-wrapper {
+            background-color: white;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            color: blue;
+            border: 1px solid blue;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        button:hover {
+            cursor: pointer;
+            
+        }
+
+        #post-form-container {
+            max-width: 300px;
+            padding: 10px;
+            margin: auto;
+            display: none;
+        }
+
+        #post-form-container input, textarea {
+            width: 100%;
+            margin: 5px 0 20px 0;
+            padding: 10px;
+        }
+
+        #hideButton {
+            font-size: 18px;
+            padding: 10px 20px;
+            color: rgb(222, 9, 34);
+            border: 1px solid rgb(195, 34, 56);
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        #saveButton {
+            color: darkcyan;
+            border: 1px solid darkcyan;
+        }
+
+        
+
+        
